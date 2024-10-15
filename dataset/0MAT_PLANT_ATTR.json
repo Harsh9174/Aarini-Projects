@@ -1,0 +1,17 @@
+{
+	"name": "0MAT_PLANT_ATTR",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "S4HCDC",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SapOdpResource",
+		"schema": [],
+		"typeProperties": {
+			"context": "SAPI",
+			"objectName": "0MAT_PLANT_ATTR"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

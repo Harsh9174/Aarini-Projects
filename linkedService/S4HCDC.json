@@ -1,0 +1,21 @@
+{
+	"name": "S4HCDC",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SapOdp",
+		"typeProperties": {
+			"clientId": "100",
+			"sncMode": false,
+			"userName": "BPINST",
+			"subscriberName": "Harsh",
+			"server": "34.194.47.247",
+			"systemNumber": "00",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2Yzk2NDdhMi1hNGIyLTQyZTItOGJlZS1jZjdkYmFhZGJkYjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SHDI",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
